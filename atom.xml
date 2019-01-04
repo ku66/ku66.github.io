@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuchen.cc/"/>
-  <updated>2019-01-04T04:34:13.229Z</updated>
+  <updated>2019-01-03T10:39:30.462Z</updated>
   <id>http://wuchen.cc/</id>
   
   <author>
@@ -15,60 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>认识JSP</title>
-    <link href="http://wuchen.cc/JSP%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
-    <id>http://wuchen.cc/JSP是什么？/</id>
-    <published>2019-01-04T04:29:44.000Z</published>
-    <updated>2019-01-04T04:34:13.229Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><p>JSP是什么？</p><p>Java server pages :java服务器端页面。<br>可以理解为，一个既可以写html，也可以写Java代码的特殊页面<br>用于简化书写​​</p><ul><li><p>JSP的原理是什么？</p><blockquote><p>本质上就是Servlet</p></blockquote></li><li><p>JSP的脚本是什么？</p><blockquote><p>JSP定义Java代码的方式</p></blockquote><ul><li><p>JSP的脚本如何定义？</p><ul><li><p>&lt;% 代码 %&gt;</p><blockquote><p>services方法可以定义什么，该脚本就能定义什么</p></blockquote></li><li><p>&lt;%! 代码 %&gt;</p><blockquote><p>在jsp转换后的Java类的成员位置</p></blockquote></li><li><p>&lt;%= 代码 %&gt;</p><blockquote><p>会输出到页面，输出语句可以定义什么，该脚本就可以定义什么</p></blockquote></li></ul></li></ul></li><li><p>JSP的内置对象是什么？</p><p>在jsp页面中，不需要获取和创建，可以直接使用的对象</p><a id="more"></a><ul><li><p>Jsp有几个内置对象？</p><blockquote><p>9个</p></blockquote><ul><li><p>request</p><ul><li>真实类型：HttpServletRequest</li><li>作用:一次请求访问的多个资源（转发）</li></ul></li><li><p>response</p><ul><li>真实类型：HttpServletResponse</li><li>作用 : 响应对象</li></ul></li><li><p>session</p><ul><li>真实类型：HttpSession</li><li>作用 : 一次会话的多个请求间</li></ul></li><li><p>application</p><ul><li>真实类型：ServletContext</li><li>作用 : 所有用户间共享数据</li></ul></li><li><p>pageContext</p><ul><li>真实类型：PageContext</li><li>作用 : 当前页面共享数据，还可以获取其他八个内置对象</li></ul></li><li><p>page</p><ul><li>真实类型：Object</li><li>作用 : 当前页面</li></ul></li><li><p>config</p><ul><li>真实类型：ServletConfig</li><li>作用 : Servlet的配置对象</li></ul></li><li><p>out</p><ul><li><p>out是什么？<br>字符输出流对象</p></li><li><p>out有什么作用？</p><p>将数据输出到页面，和 response.getWriter() 类似</p><ul><li>response.getWriter()和out.write()有什么区别？<ul><li>在tomcat服务器真正给客户端做出响应之前，会先找response缓冲区数据，再找out缓冲区数据。</li><li>response.getWriter()数据输出永远在out.write()之前</li></ul></li></ul></li></ul></li><li><p>exceptipon</p><ul><li>真实类型：Throwable</li><li>作用 : 异常对象（设置isErrorPage=”true”才可以使用）</li></ul></li></ul></li></ul></li><li><p>JSP的指令是什么？</p><ul><li><p>JSP的指令有哪些？</p><ul><li>page指令<ul><li>page指令的作用是什么？<br>配置JSP页面</li><li>page指令包含哪些内容？<ul><li>contentType：等同于response.setContentType()<ul><li>设置响应体的mime类型以及字符集</li><li>设置当前jsp页面的编码（只能是高级的IDE才能生效，如果使用低级工具，则需要设置pageEncoding属性设置当前页面的字符集）</li></ul></li><li>import：导包.但是import可以出现多次</li><li>errorPage：当前页面发生异常后，会自动跳转到指定的错误页面</li><li>isErrorPage：通过这个设置显示JSP的错误信息</li><li>session   :设置在JSP中是否可以直接使用session对象.默认值是true.</li></ul></li></ul></li><li><p>include指令</p><ul><li><p>include指令作用是什么？</p><blockquote><p>页面包含的，导入页面的资源文件</p></blockquote></li><li>include指令的格式是什么？<br>&lt;%@ include file=”top.jsp”%&gt;</li></ul></li><li><p>taglib指令</p><ul><li>taglib的作用是什么？<br>导入资源</li><li><p>taglib的格式是什么？</p><blockquote><p>&lt;%@ taglib prefix=”c” uri=”<a href="http://java.sun.com/jsp/jst1/core" target="_blank" rel="noopener">http://java.sun.com/jsp/jst1/core</a>“ %&gt;</p></blockquote></li></ul></li></ul></li><li><p>JSP的格式是什么？</p><blockquote><p>&lt;%@ 指令名称 属性名1=属性值1 属性名2=属性值2……%&gt;</p></blockquote></li><li><p>JSP指令的作用是什么？</p><blockquote><p>用于配置JSP页面，导入资源文件</p></blockquote></li><li>JSP如何注释？<ul><li><code>&lt;!--  注释内容  --&gt;</code></li><li><code>&lt;%--  注释内容  --%&gt;</code></li></ul></li></ul></li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;JSP是什么？&lt;/p&gt;
-&lt;p&gt;Java server pages :java服务器端页面。&lt;br&gt;可以理解为，一个既可以写html，也可以写Java代码的特殊页面&lt;br&gt;用于简化书写​​&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;JSP的原理是什么？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本质上就是Servlet&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;JSP的脚本是什么？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;JSP定义Java代码的方式&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;JSP的脚本如何定义？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&amp;lt;% 代码 %&amp;gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;services方法可以定义什么，该脚本就能定义什么&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;lt;%! 代码 %&amp;gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在jsp转换后的Java类的成员位置&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;lt;%= 代码 %&amp;gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;会输出到页面，输出语句可以定义什么，该脚本就可以定义什么&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;JSP的内置对象是什么？&lt;/p&gt;
-&lt;p&gt;在jsp页面中，不需要获取和创建，可以直接使用的对象&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>浅谈2019国内经济</title>
