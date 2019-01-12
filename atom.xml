@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuchen.cc/"/>
-  <updated>2019-01-10T10:56:57.835Z</updated>
+  <updated>2019-01-12T05:50:17.964Z</updated>
   <id>http://wuchen.cc/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>借助七牛云存储，六步搭好一图床</title>
+    <link href="http://wuchen.cc/%E5%80%9F%E5%8A%A9%E4%B8%83%E7%89%9B%E4%BA%91%E5%AD%98%E5%82%A8%EF%BC%8C%E5%85%AD%E6%AD%A5%E6%90%AD%E5%A5%BD%E4%B8%80%E5%9B%BE%E5%BA%8A.html"/>
+    <id>http://wuchen.cc/借助七牛云存储，六步搭好一图床.html</id>
+    <published>2019-01-11T11:23:25.000Z</published>
+    <updated>2019-01-12T05:50:17.964Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="第一步：注册七牛云"><a href="#第一步：注册七牛云" class="headerlink" title="第一步：注册七牛云"></a>第一步：注册<a href="https://www.qiniu.com" target="_blank">七牛云</a></h3><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208213226052-1676975663.png" alt=""></p><a id="more"></a><h3 id="第二步：创建存储空间"><a href="#第二步：创建存储空间" class="headerlink" title="第二步：创建存储空间"></a>第二步：创建存储空间</h3><p>1.点击管理控制台</p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208213349635-885387730.png" alt=""></p><p>2.进入控制台后，依次点击<code>对象存储</code>–<code>立即添加</code>–<code>新建存储空间</code>（名称自定义，访问控制为公开）–<code>确定创建</code></p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208213439331-1562666520.png" alt=""></p><p>大体界面如下：</p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208213539782-1907118866.png" alt=""></p><h3 id="第三步：-获取域名"><a href="#第三步：-获取域名" class="headerlink" title="第三步： 获取域名"></a>第三步： 获取域名</h3><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208233056979-1763496506.png" alt=""></p><h3 id="第四步：获取AK码和SK码"><a href="#第四步：获取AK码和SK码" class="headerlink" title="第四步：获取AK码和SK码"></a>第四步：获取AK码和SK码</h3><p>1.点击右上角的个人面板</p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208231049513-631298494.png" alt=""></p><p>2.点击<code>密钥管理</code></p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208231342014-857086328.png" alt=""></p><p>3.点击<code>创建密钥</code>获取<code>AK码</code>和<code>SK码</code></p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208232111381-1659791623.png" alt=""></p><h3 id="第五步：注册极简图床（个人推荐）"><a href="#第五步：注册极简图床（个人推荐）" class="headerlink" title="第五步：注册极简图床（个人推荐）"></a>第五步：注册<a href="http://jiantuku.com/#/ " target=" _blank">极简图床</a>（个人推荐）</h3><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208234015054-1379299587.png" alt=""></p><h3 id="第六步：设置七牛云作为图床账号"><a href="#第六步：设置七牛云作为图床账号" class="headerlink" title="第六步：设置七牛云作为图床账号"></a>第六步：设置七牛云作为图床账号</h3><p>1.点击右上角的<code>设置</code></p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208234241413-2100476841.png" alt=""></p><p>2.选择七牛云进行设置</p><p><img src="https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208234353483-1149557677.png" alt=""></p><pre><code>a.空间名称为七牛云刚刚创建的空间名称，如`CCAV-NEWS`b.`AK`和`SK`为刚刚获取的AK和SKc.域名为刚刚的域名d.相册名称自定义，如`默认相册`e.样式为选填，可不填</code></pre><h2 id="最后大功告成！"><a href="#最后大功告成！" class="headerlink" title="最后大功告成！"></a>最后大功告成！</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;第一步：注册七牛云&quot;&gt;&lt;a href=&quot;#第一步：注册七牛云&quot; class=&quot;headerlink&quot; title=&quot;第一步：注册七牛云&quot;&gt;&lt;/a&gt;第一步：注册&lt;a href=&quot;https://www.qiniu.com&quot; target=&quot;_blank&quot;&gt;七牛云&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://img2018.cnblogs.com/blog/1081616/201812/1081616-20181208213226052-1676975663.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技巧" scheme="http://wuchen.cc/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>由青蛙王子想到猪八戒</title>
