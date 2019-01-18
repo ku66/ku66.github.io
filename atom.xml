@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuchen.cc/"/>
-  <updated>2019-01-18T05:55:00.652Z</updated>
+  <updated>2019-01-18T12:54:20.778Z</updated>
   <id>http://wuchen.cc/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows下Git的用法（一）</title>
+    <link href="http://wuchen.cc/Windows%E4%B8%8BGit%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89.html"/>
+    <id>http://wuchen.cc/Windows下Git的用法（一）.html</id>
+    <published>2019-01-18T11:23:25.000Z</published>
+    <updated>2019-01-18T12:54:20.778Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="准备："><a href="#准备：" class="headerlink" title="准备："></a>准备：</h2><a id="more"></a><p>第一步：下载<a href="https://www.lanzous.com/i2u4w6j" target="_blank" rel="noopener">Git</a></p><blockquote><p>注意：除非想改变安装目录，否则安装过程一直默认下一步即可。</p></blockquote><p>第二步：新建文件夹，如新建一个 <code>learngit</code> 文件夹</p><p>第三步：右键 <code>learngit</code> 文件夹，选择 <code>Git Bash Here</code></p><p><img src="https://i.loli.net/2019/01/18/5c41b549cd186.png" alt="无标题.png"></p><p>出现如下图所示窗口即可</p><p><img src="https://ws4.sinaimg.cn/large/973733bdgy1fzayepa830j20ki0cct8n.jpg" alt="image"></p><blockquote><p>注意：在Git中，若想复制和粘贴命令，是不能用快捷键的。直接使用鼠标右键就行了​    </p></blockquote><p>接下来就是命令时间了</p><h2 id="Git命令"><a href="#Git命令" class="headerlink" title="Git命令"></a>Git命令</h2><h3 id="创建版本库：-git-init"><a href="#创建版本库：-git-init" class="headerlink" title="创建版本库： git init"></a>创建版本库： <code>git init</code></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br><span class="line">Initialized empty Git repository in D:/learngit/.git/</span><br></pre></td></tr></table></figure><p>此时learngit文件下就创建好了一个空的仓库，如图</p><p><img src="https://ws2.sinaimg.cn/large/973733bdgy1fzaynfbmpbj20l30dw0tb.jpg" alt="image"></p><p>在learngit目录下新建一个空文件，在里面填写任意内容。如 <code>aaa.txt</code>,我的内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">I Love Java!</span><br><span class="line">I Love Python!</span><br></pre></td></tr></table></figure><h3 id="将文件添加到版本库"><a href="#将文件添加到版本库" class="headerlink" title="将文件添加到版本库"></a>将文件添加到版本库</h3><h4 id="将文件放进暂存区：-git-add-文件名-文件类型"><a href="#将文件放进暂存区：-git-add-文件名-文件类型" class="headerlink" title="将文件放进暂存区： git add 文件名.文件类型"></a>将文件放进暂存区： <code>git add 文件名.文件类型</code></h4><p> 如 <code>git add aaa.txt</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add aaa.txt</span><br></pre></td></tr></table></figure><p> 此时，执行命令后若没有任何反应就对了，说明执行成功了。</p><h4 id="添加到版本库-：-git-commit-m-quot-本次提交的说明-quot"><a href="#添加到版本库-：-git-commit-m-quot-本次提交的说明-quot" class="headerlink" title="添加到版本库 ： git commit -m &quot;本次提交的说明&quot;"></a>添加到版本库 ： <code>git commit -m &quot;本次提交的说明&quot;</code></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m &quot;Java&amp;Python&quot;</span><br><span class="line">    [master (root-commit) d21c536] Java&amp;Python</span><br><span class="line">    1 file changed, 2 insertions(+)</span><br><span class="line">    create mode 100644 aaa.txt</span><br></pre></td></tr></table></figure><h4 id="查看仓库当前状态，看文件有无被修改过：git-status"><a href="#查看仓库当前状态，看文件有无被修改过：git-status" class="headerlink" title="查看仓库当前状态，看文件有无被修改过：git status"></a>查看仓库当前状态，看文件有无被修改过：<code>git status</code></h4><ul><li>直接执行命令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br><span class="line">  On branch master</span><br><span class="line">  nothing to commit, working tree clean</span><br></pre></td></tr></table></figure><ul><li>修改文件内容再执行，修改文件内容如下：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">I Love Java!</span><br><span class="line">I Love Python!</span><br><span class="line">I love u!</span><br></pre></td></tr></table></figure><p>此时，再次执行<code>git status</code>,状态如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">Changes not staged for commit:  </span><br><span class="line">(use &quot;git add &lt;file&gt;...&quot; to update what will be committed)</span><br><span class="line">(use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)</span><br><span class="line"></span><br><span class="line">modified:   aaa.txt</span><br><span class="line"></span><br><span class="line">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</span><br></pre></td></tr></table></figure><p>   这里我们来说说执行<code>git status</code>会得到的几种状态：</p><p>​    1.<code>nothing to commit, working tree clean</code>:文件无任何操作和更改</p><p>​    2.<code>Changes not staged for commit</code> :文件更改了，但没有进入缓存区（只修改内容，没执行add命令，和我上面的情况相符）</p><p>​    3.<code>Changes to be committed</code>:文件已进入缓存区，但没添加到版本库（执行了add,但没执行commit)</p><p>​    4.<code>Untracked files</code>：该文件从创建以来，就没经历过一次add和commit.</p><p>​    5.<code>On branch master</code>:若执行完status命令后，直接就一句<code>on branch master</code>  说明已经被add和commit过                       了。       </p><p>好了，Git的安装、库的创建以及文件的提交就先介绍到这里。                                                  `</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;准备：&quot;&gt;&lt;a href=&quot;#准备：&quot; class=&quot;headerlink&quot; title=&quot;准备：&quot;&gt;&lt;/a&gt;准备：&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="http://wuchen.cc/categories/Git/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Mybatis(一)</title>
