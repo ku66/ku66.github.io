@@ -5,11 +5,10 @@ Allow: /categories/
 Allow: /tags/ 
 Allow: /resources/ 
 Disallow: /vendors/
-Allow: /js/
-Allow: /css/
+Disallow: /js/
+Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-
-Sitemap: https://wuchen.cc/sitemap.xml
-Sitemap: https://wuchen.cc/baidusitemap.xml
+Sitemap: https://www.ku299.com/sitemap.xml
+Sitemap: https://www.ku299.com/baidusitemap.xml
