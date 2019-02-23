@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.ku299.com/"/>
-  <updated>2019-02-21T06:53:30.901Z</updated>
+  <updated>2019-02-23T02:33:01.515Z</updated>
   <id>https://www.ku299.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDEA 2017.3.4 破解到2099年方法</title>
+    <link href="https://www.ku299.com/IDEA%202017.3.4%20%E7%A0%B4%E8%A7%A3%E5%88%B02099%E5%B9%B4%E6%96%B9%E6%B3%95.html"/>
+    <id>https://www.ku299.com/IDEA 2017.3.4 破解到2099年方法.html</id>
+    <published>2019-02-21T11:23:25.000Z</published>
+    <updated>2019-02-23T02:33:01.515Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="下载破解文件"><a href="#下载破解文件" class="headerlink" title="下载破解文件"></a>下载破解文件</h4><p><a href="http://vdisk.weibo.com/s/zsw8ubd9-OLCK" target="_blank" rel="noopener">IDEA2017.3.4激活文件.zip</a><br><a href="https://pan.baidu.com/s/1aRBEW0SZVMfcFRBVgJs3iQ" target="_blank" rel="noopener">IDEA2017.3.4软件安装包</a> 提取码：uejm</p><a id="more"></a><h4 id="将以下三个文件复制到IDEA安装bin目录下"><a href="#将以下三个文件复制到IDEA安装bin目录下" class="headerlink" title="将以下三个文件复制到IDEA安装bin目录下"></a>将以下三个文件复制到IDEA安装bin目录下</h4><p><code>idea.exe.vmoptions</code></p><p><code>idea64.exe.vmoptions</code></p><p><code>JetbrainsCrack-3.1-release-enc.jar</code></p><p>如下图所示：</p><p><img src="https://ws1.sinaimg.cn/large/973733bdgy1fzhdqungutj20l609x757.jpg" alt="image"></p><h4 id="修改idea-exe-vmoptions和idea64-exe-vmoptions的最后一行内容"><a href="#修改idea-exe-vmoptions和idea64-exe-vmoptions的最后一行内容" class="headerlink" title="修改idea.exe.vmoptions和idea64.exe.vmoptions的最后一行内容"></a>修改<code>idea.exe.vmoptions</code>和<code>idea64.exe.vmoptions</code>的最后一行内容</h4><p>如图：</p><p><img src="https://ws4.sinaimg.cn/large/973733bdgy1fzhdv3nphbj20qb07s74k.jpg" alt="image"></p><h4 id="打开IDEA输入激活码激活"><a href="#打开IDEA输入激活码激活" class="headerlink" title="打开IDEA输入激活码激活"></a>打开IDEA输入激活码激活</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">ThisCrackLicenseId-&#123;</span><br><span class="line">"licenseId":"ThisCrackLicenseId",</span><br><span class="line">"licenseeName":"你的姓名",</span><br><span class="line">"assigneeName":"",</span><br><span class="line">"assigneeEmail":"你的邮箱",</span><br><span class="line">"licenseRestriction":"For This Crack, Only Test! Please support genuine!!!",</span><br><span class="line">"checkConcurrentUse":false,</span><br><span class="line">"products":[</span><br><span class="line">&#123;"code":"II","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"DM","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"AC","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"RS0","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"WS","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"DPN","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"RC","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"PS","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"DC","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"RM","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;"code":"CL","paidUpTo":"2099-12-31"&#125;,</span><br><span class="line">&#123;<span class="attr">"code"</span>:<span class="string">"PC"</span>,<span class="attr">"paidUpTo"</span>:<span class="string">"2099-12-31"</span>&#125;</span><br><span class="line">],</span><br><span class="line">"hash":"2911276/0",</span><br><span class="line">"gracePeriodDays":7,</span><br><span class="line">"autoProlongated":false&#125;</span><br></pre></td></tr></table></figure><p>打开ieda – help – Register ，如下图：</p><p><img src="https://ws3.sinaimg.cn/large/973733bdgy1fzhe1ik0t4j20ez0fvq39.jpg" alt="image"></p><p>最后重启一下idea，就破解成功了</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;下载破解文件&quot;&gt;&lt;a href=&quot;#下载破解文件&quot; class=&quot;headerlink&quot; title=&quot;下载破解文件&quot;&gt;&lt;/a&gt;下载破解文件&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://vdisk.weibo.com/s/zsw8ubd9-OLCK&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IDEA2017.3.4激活文件.zip&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://pan.baidu.com/s/1aRBEW0SZVMfcFRBVgJs3iQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IDEA2017.3.4软件安装包&lt;/a&gt; 提取码：uejm&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IDEA" scheme="https://www.ku299.com/categories/IDEA/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Windows下Git的用法（二）</title>
