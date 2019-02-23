@@ -1,3 +1,4 @@
+https://www.ku299.com/win10下安装两个JDK以及IDEA切换JDK的方法.html
 https://www.ku299.com/IDEA 2017.3.4 破解到2099年方法.html
 https://www.ku299.com/Windows下Git的用法（二）.html
 https://www.ku299.com/Windows下Git的用法（一）.html
@@ -11,5 +12,5 @@ https://www.ku299.com/狐不归.html
 https://www.ku299.com/我眼中的西游.html
 https://www.ku299.com/用HTML解决MarkDown的两个痛点.html
 https://www.ku299.com/信神和信宗教有什么区别？.html
-https://www.ku299.com/斗胆谈一谈中国人的圣君思想.html
 https://www.ku299.com/浅谈2019国内经济.html
+https://www.ku299.com/斗胆谈一谈中国人的圣君思想.html
