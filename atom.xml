@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.ku299.com/"/>
-  <updated>2019-02-23T02:53:38.503Z</updated>
+  <updated>2019-02-26T12:33:17.097Z</updated>
   <id>https://www.ku299.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在windows上搭建不限速下载神器aria2</title>
+    <link href="https://www.ku299.com/%E5%9C%A8windows%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%8D%E9%99%90%E9%80%9F%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8aria2.html"/>
+    <id>https://www.ku299.com/在windows上搭建不限速下载神器aria2.html</id>
+    <published>2019-02-23T11:23:25.000Z</published>
+    <updated>2019-02-26T12:33:17.097Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h4><p>​    <a href="https://pan.baidu.com/s/1rMT9j81EkglujllQDZbzDw" target="_blank" rel="noopener">传送门</a></p><p>​    解压之后的文件夹如图：</p><a id="more"></a><p><img src="https://wx4.sinaimg.cn/large/973733bdly1g0gcda6ysuj20lh0bu75g.jpg" alt="image"></p><h4 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h4><p>​    用编辑器打开<code>aria2.conf</code>配置文件，如图：</p><p><img src="https://ws3.sinaimg.cn/large/973733bdly1g0k2ivmsvpj20l10bxtay.jpg" alt="image"></p><h4 id="3-启动"><a href="#3-启动" class="headerlink" title="3.启动"></a>3.启动</h4><p>​    双击<code>start.bat文件</code>，如图：</p><p><img src="https://wx2.sinaimg.cn/large/973733bdly1g0k2m4hv25j20x60g5wfv.jpg" alt="image"></p><p>​    <strong>不要将黑窗口关掉，不然服务也就停掉了。</strong></p><h4 id="4-使用WebUI"><a href="#4-使用WebUI" class="headerlink" title="4.使用WebUI"></a>4.使用WebUI</h4><ul><li><p><strong>AriaNg-1.0.0</strong></p><p>打开 <code>AriaNg-1.0.0</code> 文件夹，如图：</p></li></ul><p><img src="https://wx2.sinaimg.cn/large/973733bdly1g0k2qsnq1sj20l309nq3o.jpg" alt="image"></p><p>​    用浏览器打开<code>index.html</code>文件</p><p><img src="https://wx1.sinaimg.cn/large/973733bdly1g0k2yban94j211o0lojsr.jpg" alt="image"></p><ul><li><p><strong>webui-aria2-master</strong></p><p>打开<code>webui-aria2-master</code>文件夹，打开<code>docs</code>文件夹，如图：</p></li></ul><p><img src="https://ws1.sinaimg.cn/large/973733bdly1g0k3424niaj20l105qmxj.jpg" alt="image"></p><p>​    用浏览器打开<code>index.html</code></p><p><img src="https://ws4.sinaimg.cn/large/973733bdly1g0k37xand0j211q0j03zq.jpg" alt="image"></p><ul><li><strong>在线网址</strong> <a href="http://aria2c.com/" target="_blank" rel="noopener"><strong>aria2c.com</strong></a></li></ul><p><img src="https://ws3.sinaimg.cn/large/973733bdly1g0k3dw1t97j21200bp74u.jpg" alt="image"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-下载&quot;&gt;&lt;a href=&quot;#1-下载&quot; class=&quot;headerlink&quot; title=&quot;1.下载&quot;&gt;&lt;/a&gt;1.下载&lt;/h4&gt;&lt;p&gt;​    &lt;a href=&quot;https://pan.baidu.com/s/1rMT9j81EkglujllQDZbzDw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​    解压之后的文件夹如图：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="aria2" scheme="https://www.ku299.com/categories/aria2/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>win10下安装两个JDK以及IDEA切换JDK的方法</title>
