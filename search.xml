@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[浏览器提取已安装扩展教程]]></title>
+    <url>%2F%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%90%E5%8F%96%E5%B7%B2%E5%AE%89%E8%A3%85%E6%89%A9%E5%B1%95%E6%95%99%E7%A8%8B.html</url>
+    <content type="text"><![CDATA[Google Chrome打开扩展程序页chrome://extensions/ 打开扩展安装路径 C:\Users\你的用户名\AppData\Local\Google\Chrome\User Data\Default\Extensions 以我本地安装好的印象笔记·悦读 10.5.1.8为例 匹配id值记住上图中的id值，去文件夹中匹配 复制根路径打开iooico.....开头的文件夹，接着再打开子文件夹 打包扩展在chrome浏览器中，选择打包扩展程序(第一张图就是)，然后进行打包。 找到扩展文件返回文件夹上一级目录，这时会发现一个.crx后缀的文件，这就是刚打包生成的扩展文件。 Operaopera目前也是chrome内核，所以打包方法和谷歌浏览器几乎一样。 下面来说说几点区别： opera的扩展安装路径1.opera的扩展安装路径与chrome不同，opera的路径如下： C:\Users\你的用户名\AppData\Roaming\Opera Software\Opera Stable\Extensions 关于 .nex 文件2.opera打包生成的是.nex文件，这种扩展文件只能装在opera浏览器上，谷歌浏览器无法安装。 Firefox火狐虽然不是chrome内核，但提取方法也大同小异。 火狐的扩展安装路径C:\Users\你的用户名\AppData\Roaming\Mozilla\Firefox\Profiles\vbiarcly.default\extensions 让xpi文件显真名虽然我们不用打包，但有些扩展的名字是乱七八糟的字符。为了以后使用方便，还是将这些扩展文件重命名。 那么如何识别这些扩展的真实姓名呢？ 为了安全起见，先将这些文件复制到其他文件夹。 接下来就是安装那些名字很乱的xpi文件了 当你点击安装时，它们的真名就暴露了。]]></content>
+      <categories>
+        <category>浏览器</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[在windows上搭建不限速下载神器aria2]]></title>
     <url>%2F%E5%9C%A8windows%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%8D%E9%99%90%E9%80%9F%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8aria2.html</url>
     <content type="text"><![CDATA[1.下载​ 传送门 ​ 解压之后的文件夹如图： 2.配置​ 用编辑器打开aria2.conf配置文件，如图： 3.启动​ 双击start.bat文件，如图： ​ 不要将黑窗口关掉，不然服务也就停掉了。 4.使用WebUI AriaNg-1.0.0 打开 AriaNg-1.0.0 文件夹，如图： ​ 用浏览器打开index.html文件 webui-aria2-master 打开webui-aria2-master文件夹，打开docs文件夹，如图： ​ 用浏览器打开index.html 在线网址 aria2c.com]]></content>

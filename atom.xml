@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.ku299.com/"/>
-  <updated>2019-02-26T12:33:17.097Z</updated>
+  <updated>2019-03-01T13:32:57.262Z</updated>
   <id>https://www.ku299.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浏览器提取已安装扩展教程</title>
+    <link href="https://www.ku299.com/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%90%E5%8F%96%E5%B7%B2%E5%AE%89%E8%A3%85%E6%89%A9%E5%B1%95%E6%95%99%E7%A8%8B.html"/>
+    <id>https://www.ku299.com/浏览器提取已安装扩展教程.html</id>
+    <published>2019-02-28T11:23:25.000Z</published>
+    <updated>2019-03-01T13:32:57.262Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Google-Chrome"><a href="#Google-Chrome" class="headerlink" title="Google Chrome"></a>Google Chrome</h3><h5 id="打开扩展程序页"><a href="#打开扩展程序页" class="headerlink" title="打开扩展程序页"></a>打开扩展程序页</h5><p><em><code>chrome://extensions/</code></em></p><p><img src="https://wx1.sinaimg.cn/large/973733bdly1g0nkb368klj20p30bw41c.jpg" alt="image"></p><h5 id="打开扩展安装路径"><a href="#打开扩展安装路径" class="headerlink" title="打开扩展安装路径"></a>打开扩展安装路径</h5><a id="more"></a><p><em><code>C:\Users\你的用户名\AppData\Local\Google\Chrome\User Data\Default\Extensions</code></em></p><p><img src="https://wx4.sinaimg.cn/large/973733bdly1g0nkhj8njcj20oo0gywo8.jpg" alt="image"></p><p>以我本地安装好的<code>印象笔记·悦读 10.5.1.8</code>为例</p><p><img src="https://wx1.sinaimg.cn/large/973733bdly1g0nkm1nrb0j20ef07ngnd.jpg" alt="image"></p><h5 id="匹配id值"><a href="#匹配id值" class="headerlink" title="匹配id值"></a>匹配id值</h5><p>记住上图中的id值，去文件夹中匹配</p><p><img src="https://wx3.sinaimg.cn/large/973733bdly1g0nkpgrfq6j20mx0fc7cl.jpg" alt="image"></p><h5 id="复制根路径"><a href="#复制根路径" class="headerlink" title="复制根路径"></a>复制根路径</h5><p>打开<code>iooico.....</code>开头的文件夹，接着再打开子文件夹</p><p><img src="https://wx3.sinaimg.cn/large/973733bdly1g0nkua4tqnj20ll06dtag.jpg" alt="image"></p><h5 id="打包扩展"><a href="#打包扩展" class="headerlink" title="打包扩展"></a>打包扩展</h5><p>在chrome浏览器中，选择<code>打包扩展程序</code>(第一张图就是)，然后进行打包。</p><p><img src="https://wx3.sinaimg.cn/large/973733bdly1g0nl4ak728j20ho0a4q4r.jpg" alt="image"></p><h5 id="找到扩展文件"><a href="#找到扩展文件" class="headerlink" title="找到扩展文件"></a>找到扩展文件</h5><p>返回文件夹上一级目录，这时会发现一个.crx后缀的文件，这就是刚打包生成的扩展文件。</p><p><img src="https://wx2.sinaimg.cn/large/973733bdly1g0nl9wmxv8j20og04t0ul.jpg" alt="image"></p><h3 id="Opera"><a href="#Opera" class="headerlink" title="Opera"></a>Opera</h3><p>opera目前也是chrome内核，所以打包方法和谷歌浏览器几乎一样。</p><p>下面来说说几点区别：</p><h5 id="opera的扩展安装路径"><a href="#opera的扩展安装路径" class="headerlink" title="opera的扩展安装路径"></a>opera的扩展安装路径</h5><p>1.opera的扩展安装路径与chrome不同，opera的路径如下：</p><p><em><code>C:\Users\你的用户名\AppData\Roaming\Opera Software\Opera Stable\Extensions</code></em></p><p><img src="https://wx1.sinaimg.cn/large/973733bdly1g0nlj7lpyyj20t10i8wn5.jpg" alt="image"></p><h5 id="关于-nex-文件"><a href="#关于-nex-文件" class="headerlink" title="关于 .nex 文件"></a>关于 .nex 文件</h5><p>2.opera打包生成的是<code>.nex</code>文件，这种扩展文件只能装在opera浏览器上，谷歌浏览器无法安装。</p><p><img src="https://ws3.sinaimg.cn/large/973733bdly1g0nlo255kvj20lr0400tl.jpg" alt="image"></p><h3 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h3><p>火狐虽然不是chrome内核，但提取方法也大同小异。</p><h5 id="火狐的扩展安装路径"><a href="#火狐的扩展安装路径" class="headerlink" title="火狐的扩展安装路径"></a>火狐的扩展安装路径</h5><p><em><code>C:\Users\你的用户名\AppData\Roaming\Mozilla\Firefox\Profiles\vbiarcly.default\extensions</code></em></p><p><img src="https://wx4.sinaimg.cn/large/973733bdly1g0nlui2w9ij20mx0fctgu.jpg" alt="image"></p><h5 id="让xpi文件显真名"><a href="#让xpi文件显真名" class="headerlink" title="让xpi文件显真名"></a>让xpi文件显真名</h5><p>虽然我们不用打包，但有些扩展的名字是乱七八糟的字符。为了以后使用方便，还是将这些扩展文件重命名。</p><p>那么如何识别这些扩展的真实姓名呢？</p><p>为了安全起见，先将这些文件复制到其他文件夹。</p><p><img src="https://wx1.sinaimg.cn/large/973733bdly1g0nm2dqv8oj209l0kxq3s.jpg" alt="image"></p><p>接下来就是安装那些名字很乱的xpi文件了</p><p><img src="https://ws2.sinaimg.cn/large/973733bdly1g0nm46oq93j20uu0880th.jpg" alt="image"></p><p>当你点击安装时，它们的真名就暴露了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Google-Chrome&quot;&gt;&lt;a href=&quot;#Google-Chrome&quot; class=&quot;headerlink&quot; title=&quot;Google Chrome&quot;&gt;&lt;/a&gt;Google Chrome&lt;/h3&gt;&lt;h5 id=&quot;打开扩展程序页&quot;&gt;&lt;a href=&quot;#打开扩展程序页&quot; class=&quot;headerlink&quot; title=&quot;打开扩展程序页&quot;&gt;&lt;/a&gt;打开扩展程序页&lt;/h5&gt;&lt;p&gt;&lt;em&gt;&lt;code&gt;chrome://extensions/&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/973733bdly1g0nkb368klj20p30bw41c.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;打开扩展安装路径&quot;&gt;&lt;a href=&quot;#打开扩展安装路径&quot; class=&quot;headerlink&quot; title=&quot;打开扩展安装路径&quot;&gt;&lt;/a&gt;打开扩展安装路径&lt;/h5&gt;
+    
+    </summary>
+    
+      <category term="浏览器" scheme="https://www.ku299.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>在windows上搭建不限速下载神器aria2</title>
